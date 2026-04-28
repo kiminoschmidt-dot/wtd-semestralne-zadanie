@@ -1,4 +1,4 @@
-/* ZÁKLADNÉ NASTAVENIA */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* NAVIGÁCIA */
+
 nav {
     background-color: #1a1a2e;
     display: flex;
@@ -41,7 +41,7 @@ nav ul li a:hover {
     color: #e94560;
 }
 
-/* HERO SEKCIA */
+
 .hero {
     background-color: #e94560;
     color: white;
@@ -59,7 +59,7 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* TLAČIDLO */
+
 .btn {
     background-color: white;
     color: #e94560;
@@ -74,7 +74,7 @@ nav ul li a:hover {
     color: white;
 }
 
-/* HLAVNÝ OBSAH */
+
 .intro {
     text-align: center;
     padding: 60px 20px;
@@ -85,7 +85,7 @@ nav ul li a:hover {
     margin-bottom: 15px;
 }
 
-/* PÄTA */
+
 footer {
     background-color: #1a1a2e;
     color: white;
@@ -139,7 +139,7 @@ tr:hover {
     background-color: #f5f5f5;
 }
 
-/* KARTY */
+
 .cards-section {
     padding: 50px 40px;
     max-width: 1100px;
@@ -194,7 +194,7 @@ tr:hover {
 }
 
 
-/* GALÉRIA */
+
 .gallery-section {
     padding: 50px 40px;
     max-width: 1100px;
@@ -252,7 +252,7 @@ tr:hover {
     display: block !important;
 }
 
-/* BLOG */
+
 .blog-section {
     max-width: 800px;
     margin: 0 auto;
@@ -296,7 +296,7 @@ tr:hover {
 
 
 
-/* KONTAKT - FORMULÁR */
+
 .contact-section {
     max-width: 600px;
     margin: 0 auto;
@@ -365,7 +365,7 @@ tr:hover {
     font-size: 16px;
 }
 
-/* Kurzor - ručička */
+
 input[type="radio"],
 input[type="checkbox"],
 select,
@@ -373,7 +373,7 @@ select,
     cursor: pointer;
 }
 
-/* O NÁS */
+
 .about-section {
     max-width: 800px;
     margin: 0 auto;
@@ -393,7 +393,7 @@ select,
     font-size: 16px;
 }
 
-/* TÍM */
+
 .team-section {
     max-width: 1100px;
     margin: 0 auto;
