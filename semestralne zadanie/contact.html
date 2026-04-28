@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWorld - Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Wander World</div>
+    <ul>
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="destination.html">Destinácie</a></li>
+        <li><a href="gallery.html">Galéria</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="about.html">O nás</a></li>
+    </ul>
+</nav>
+
+<header class="page-header">
+    <h1>Kontakt</h1>
+    <p>Napíš nám správu</p>
+</header>
+
+<main>
+    <section class="contact-section">
+        <form id="contact-form" novalidate>
+
+            <!-- 1. Meno - textové pole -->
+            <div class="form-group">
+                <label for="name">Meno a priezvisko *</label>
+                <input type="text" id="name" placeholder="Ján Novák" required minlength="3">
+                <span class="error" id="name-error"></span>
+            </div>
+
+            <!-- 2. Email -->
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" placeholder="jan@gmail.com" required>
+                <span class="error" id="email-error"></span>
+            </div>
+
+            <!-- 3. Téma - select -->
+            <div class="form-group">
+                <label for="topic">Téma *</label>
+                <select id="topic" required>
+                    <option value="">-- Vyber tému --</option>
+                    <option value="europa">Európa</option>
+                    <option value="azia">Ázia</option>
+                    <option value="amerika">Amerika</option>
+                    <option value="africa">Afrika</option>
+                </select>
+                <span class="error" id="topic-error"></span>
+            </div>
+
+            <!-- 4. Správa - textarea -->
+            <div class="form-group">
+                <label for="message">Správa *</label>
+                <textarea id="message" rows="5" placeholder="Napíš svoju správu..." required minlength="10"></textarea>
+                <span class="error" id="message-error"></span>
+            </div>
+
+            <!-- 5. Pohlavie - radio button -->
+            <div class="form-group">
+                <label>Pohlavie *</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="muz" required> Muž</label>
+                    <label><input type="radio" name="gender" value="zena"> Žena</label>
+                </div>
+                <span class="error" id="gender-error"></span>
+            </div>
+
+            <!-- 6. Súhlas - checkbox -->
+            <div class="form-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="agree" required>
+                    Súhlasím so spracovaním osobných údajov *
+                </label>
+                <span class="error" id="agree-error"></span>
+            </div>
+
+            <button type="submit" class="btn">Odoslať správu</button>
+
+            <div id="success-message" style="display:none;">
+                 Správa bola úspešne odoslaná!
+            </div>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 WanderWorld. Všetky práva vyhradené.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

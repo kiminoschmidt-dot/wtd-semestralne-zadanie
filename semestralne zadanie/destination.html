@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWorld - Destinácie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Wander World</div>
+    <ul>
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="destination.html">Destinácie</a></li>
+        <li><a href="gallery.html">Galéria</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="about.html">O nás</a></li>
+    </ul>
+</nav>
+
+<header class="page-header">
+    <h1>Destinácie</h1>
+    <p>Objavuj najkrajšie miesta sveta</p>
+</header>
+
+<main>
+
+    <!-- KARTY -->
+    <section class="cards-section">
+        <h2>Populárne destinácie</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Paríž</h3>
+                <p>Francúzsko</p>
+                <span>Európa</span>
+            </div>
+            <div class="card">
+                <h3>New York</h3>
+                <p>USA</p>
+                <span>Severná Amerika</span>
+            </div>
+            <div class="card">
+                <h3>Tokio</h3>
+                <p>Japonsko</p>
+                <span>Ázia</span>
+            </div>
+            <div class="card">
+                <h3>Rím</h3>
+                <p>Taliansko</p>
+                <span>Európa</span>
+            </div>
+            <div class="card">
+                <h3>Bali</h3>
+                <p>Indonézia</p>
+                <span>Ázia</span>
+            </div>
+            <div class="card">
+                <h3>Nairobi</h3>
+                <p>Keňa</p>
+                <span>Afrika</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABUĽKA - sem prídu dáta z JSON cez AJAX -->
+    <section class="destinations-section">
+        <h2>Všetky destinácie</h2>
+        <table id="destinations-table">
+            <thead>
+            <tr>
+                <th>Krajina</th>
+                <th>Mesto</th>
+                <th>Kontinent</th>
+                <th>Najlepší čas</th>
+                <th>Mena</th>
+                <th>Jazyk</th>
+            </tr>
+            </thead>
+            <tbody id="table-body">
+            <!-- Dáta sa načítajú cez JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 WanderWorld. Všetky práva vyhradené.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

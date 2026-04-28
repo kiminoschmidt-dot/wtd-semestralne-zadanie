@@ -1,0 +1,88 @@
+{
+  "destination": [
+    {
+      "id": 1,
+      "krajina": "Francúzsko",
+      "mesto": "Paríž",
+      "kontinent": {
+        "nazov": "Európa",
+        "oblast": "Západná Európa"
+      },
+      "info": {
+        "najlepsi_cas": "Jar a Jeseň",
+        "mena": "Euro",
+        "jazyk": "Francúzština"
+      }
+    },
+    {
+      "id": 2,
+      "krajina": "Japonsko",
+      "mesto": "Tokio",
+      "kontinent": {
+        "nazov": "Ázia",
+        "oblast": "Východná Ázia"
+      },
+      "info": {
+        "najlepsi_cas": "Jar a Jeseň",
+        "mena": "Japonský Jen",
+        "jazyk": "Japončina"
+      }
+    },
+    {
+      "id": 3,
+      "krajina": "USA",
+      "mesto": "New York",
+      "kontinent": {
+        "nazov": "Severná Amerika",
+        "oblast": "Severná Amerika"
+      },
+      "info": {
+        "najlepsi_cas": "Jar a Jeseň",
+        "mena": "Dolár",
+        "jazyk": "Angličtina"
+      }
+    },
+    {
+      "id": 4,
+      "krajina": "Taliansko",
+      "mesto": "Rím",
+      "kontinent": {
+        "nazov": "Európa",
+        "oblast": "Južná Európa"
+      },
+      "info": {
+        "najlepsi_cas": "Jar a Jeseň",
+        "mena": "Euro",
+        "jazyk": "Taliančina"
+      }
+    },
+    {
+      "id": 5,
+      "krajina": "Indonézia",
+      "mesto": "Bali",
+      "kontinent": {
+        "nazov": "Ázia",
+        "oblast": "Juhovýchodná Ázia"
+      },
+      "info": {
+        "najlepsi_cas": "Máj až September",
+        "mena": "Indonézska Rupia",
+        "jazyk": "Indonézština"
+      }
+    },
+    {
+      "id": 6,
+      "krajina": "SAE",
+      "mesto": "Dubaj",
+      "kontinent": {
+        "nazov": "Ázia",
+        "oblast": "Blízky Východ"
+      },
+      "info": {
+        "najlepsi_cas": "November až Marec",
+        "mena": "Dirham",
+        "jazyk": "Arabčina"
+      }
+    }
+  ]
+}
