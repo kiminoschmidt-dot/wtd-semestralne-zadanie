@@ -1,15 +1,15 @@
-// Blog - rozbaľovací text
+
 document.querySelectorAll('.blog-btn').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
-        e.preventDefault(); // zastaví skok na začiatok stránky
+        e.preventDefault(); 
 
-        var extra = this.previousElementSibling; // nájde div.blog-extra
+        var extra = this.previousElementSibling; 
 
         if (extra.style.display === 'none') {
-            extra.style.display = 'block'; // zobraz text
-            this.textContent = 'Čítať menej'; // zmeň text tlačidla
+            extra.style.display = 'block'; 
+            this.textContent = 'Čítať menej'; 
         } else {
-            extra.style.display = 'none'; // skry text
+            extra.style.display = 'none'; 
             this.textContent = 'Čítať viac';
         }
     });
@@ -22,7 +22,7 @@ fetch('destination.json')
     .then(function(data) {
         var tbody = document.getElementById('table-body');
 
-        if (!tbody) return; // ak nie sme na stránke s tabuľkou, skonči
+        if (!tbody) return; 
 
         data.destination.forEach(function(dest) {
             var row = document.createElement('tr');
